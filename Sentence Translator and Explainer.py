@@ -36,7 +36,7 @@ async def on_message(message):
 
 async def generate_response(prompt):
     # Prepend the desired text to the user's input
-    prompt = "Translate this sentence and explain in English Input " + prompt
+    prompt = "Translate this sentence and explain in English" + prompt
 
     headers = {
         'Content-Type': 'application/json'
